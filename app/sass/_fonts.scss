@@ -1,0 +1,6 @@
+@import "_mixins/font-face";
+
+@include font-face("NotoSans", "../fonts/NotoSans/Regular/NotoSans-Regular", normal);
+@include font-face("NotoSans", "../fonts/NotoSans/RegularItalic/NotoSans-RegularItalic", normal, italic);
+@include font-face("NotoSans", "../fonts/NotoSans/Bold/NotoSans-Bold", bold);
+@include font-face("NotoSans", "../fonts/NotoSans/BoldItalic/NotoSans-BoldItalic", bold, italic);
