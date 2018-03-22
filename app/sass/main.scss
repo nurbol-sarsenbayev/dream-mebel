@@ -65,21 +65,19 @@ body {
         align-items: center;    
     }
 
+    &-phones {
+        display: flex;
+        align-items: center;
+    }
+
     .text-phone {
         font-size: 24px;
         font-weight: bold;
         display: flex;
         align-items: center;
-
-        &:before {
-            display: inline-block;
-            content: "";
-            width: 30px;
-            height: 30px;
-            background-size: cover;
-            background-image: url('../img/whatsup.png');
-            margin-right: 10px;
-        }
+        margin-left: 10px;
+        line-height: 1;
+        margin-bottom: 2px;
     }
 }
 

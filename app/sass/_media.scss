@@ -16,6 +16,15 @@
 }
 
 @media only screen and (max-width : 991px) {	
+    .header {
+        .slogan {
+            max-width: 300px;
+        }
+        .text-phone {
+            font-size: 20px;
+        }
+    }
+
     .section {
         &-main {
             &-title {
@@ -35,16 +44,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 767px) {
-
-    .header {
-        .slogan {
-            max-width: 300px;
-        }
-        .text-phone {
-            font-size: 20px;
-        }
-    }
+@media only screen and (max-width : 767px) {    
 
     .section {
         &-main {
@@ -117,8 +117,18 @@
         .logo {
             margin-right: 10px;
         }
+        &-phones {
+            a:first-child {
+                flex-shrink: 0;
+            }
+            img {
+                width: 25px;
+            }
+        }
         .text-phone {
             font-size: 16px;
+            margin-bottom: 4px;
+            margin-left: 3px;
             &:before {
                 width: 20px;
                 height: 20px;
