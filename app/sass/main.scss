@@ -87,7 +87,7 @@ body {
 
     &-main {
         min-height: 100vh;
-        padding: 210px 0 20px;
+        padding: 190px 0 20px;
         background-image: url('../img/main-back.jpg');
         background-size: cover;
         background-repeat: no-repeat;
@@ -147,6 +147,9 @@ body {
 
         .button {
             margin-bottom: 60px;
+            &+p {
+                margin: 0;
+            }
         }
         
     }
